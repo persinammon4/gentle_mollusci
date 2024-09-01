@@ -1,0 +1,117 @@
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+			<title>you :) - monica's webpage c:</title>
+			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+			<link rel="stylesheet" href="assets\css\styles.css">
+			<!-- this script is running -->
+			<script src="assets\js\atrament.min.js"></script>
+		</head>
+	<body>
+		<html>
+  <head>
+  </head>
+  <body>
+		<div class="container-fluid">
+			<div class="readability">
+			<div class="row">
+				<div class="col-sm-12">
+			    <br />
+					<h1 class="dragme">Art Wall!</h1>
+					
+					
+
+					<p>Enough about me, now about you. I'm featuring art drawn by visitors of my website. There is a canvas, music, and a whole lotta colors to choose from. Enjoy!</p>
+
+          <h3>Music</h3>
+          <div id="music">
+            <iframe src="https://open.spotify.com/embed/playlist/187WZCiNBwXqbgwEEh2r2B" width="250" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+          </div>
+
+        
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<!-- drawing pad palette goes here -->
+					<h3>Palettes</h3>
+					<br />
+					<br />
+					Palettes to choose from! Each palette is chosen by someone to represent their hometown. Click a color to change your brush color.
+					<br />
+					<div id="palettes" style="border:1px black;"></div>
+					<br />
+				</div>
+				<div class="col-sm-4" id="sketchpad-home">
+					<h3>Canvas</h3>
+					Click to erase the entire canvas:
+					<img id="eraser" class="dragme" src="assets/images/you/eraser.png" height="80" onclick="sketchpad.clear();"/>
+					<br />
+					<!-- opacity slider goes here. value from 0 to 1 -->
+					Opacity:
+					<input type="range" min="0" max="100" value="100" class="slider" id="opacity_slider">
+					<br />
+					<!-- stroke thickness slider goes here. value in pixels -->
+					Thickness:
+					<input type="range" min="1" max="100" value="0" class="slider" id="thickness_slider">
+					<br />
+					<!-- drawing pad goes here -->
+					<canvas id="sketchpad"></canvas>
+					<br />
+					<u><a id="download" href="#" download="_looks_great.png">Download</a></u>
+				</div>
+        <div class="col-sm-4">
+          <h4>Palette Inspiration</h4><div id="palette_info">No Palette Selected.</div>
+					<h4>Color Description</h4><div id="color_description">Right now it's orange. Orange used to be my "favorite" color because I felt sorry for it. No one likes only orange.</div>
+					<br />
+			<h4>Palette Contributor</h4><div id="palette_contributor">No Contributor To Be Found.</div>
+        </div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<h4>If you would like to have your art featured, email it to me at the email on my about page, and I will add it to
+						the gallery.</h4>
+
+					<h3>this is a previous visitor's art (randomly selected):</h3>
+					<div id="gallery"></div>
+				</div>
+			</div>
+		</div>
+			</div>
+	  
+       <div class="dragme"><div id="navigation">
+
+	<a href="index.html" class="dragme ">
+		About Me
+	</a>
+
+	<a href="cv.html" class="dragme ">
+		Curriculum Vitae
+	</a>
+
+	<a href="interests.html" class="dragme">
+		Interests
+	</a>
+
+	<a href="you.html" class="dragme blackcurrant">
+		You
+	</a>
+
+</div>
+
+
+
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+	</body>
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="/assets/js/hodgepodge.js"></script>
+<script src="/assets/js/you.js"></script>
