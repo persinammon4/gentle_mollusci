@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";\n",
+		"body {\n  background-image: url(\"../images/starry_sky.jpg\");\n  background-size: 100;\n  background-repeat: no-repeat;\n  background-size: cover;\n  font-family: \"Courier New\";\n}\n.me_image {\n  max-width: 350px;\n  min-height: auto;\n}\n.img_of_the_hidden_leaf {\n  max-width:200px;\n  min-height: auto;\n  z-index: 10;\n}\n.border-active {\n  border: 3px dashed #cec0fc;\n}\ndiv {\n  padding: 20px;\n}\n#quote{\n  z-index: 2;\n}\n#me_img_div{\n  z-index: 1;\n}\n.about-table {\n  border: 3px dashed #cec0fc; /* lavender */\n  border-collapse: collapse;\n}\n.noscript_img {\n  max-width: 250px;\n  min-height: auto;\n}\nth, td {\n  padding: 15px;\n}\na {\n  color: black;\n}\n.readability {\n  background:white;\n  padding: 60px 100px 60px 100px;\n}\n.blog-image {\n  max-width: 200px;\n  min-height: auto;\n}\n.visitor-painting {\n  border: 4px #ffea61;\n}\n.rotateme {\n  width: 400px;\n  display: block;\n  transform: rotate(90deg);\n}\n"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,IAAI,CAAC,EACH,gBAAgB,EAAE,+BAA+B,EACjD,eAAe,EAAE,GAAG,EACpB,iBAAiB,EAAE,SAAS,EAC5B,eAAe,EAAE,KAAK,EACtB,WAAW,EAAE,aAAa,GAC3B;;AACD,AAAA,SAAS,CAAC,EACR,SAAS,EAAE,KAAK,EAChB,UAAU,EAAE,IAAI,GACjB;;AACD,AAAA,uBAAuB,CAAC,EACtB,SAAS,EAAC,KAAK,EACf,UAAU,EAAE,IAAI,EAChB,OAAO,EAAE,EAAE,GACZ;;AACD,AAAA,cAAc,CAAC,EACb,MAAM,EAAE,kBAAkB,GAC3B;;AACD,AAAA,GAAG,CAAC,EACF,OAAO,EAAE,IAAI,GACd;;AACD,AAAA,MAAM,CAAA,EACJ,OAAO,EAAE,CAAC,GACX;;AACD,AAAA,WAAW,CAAA,EACT,OAAO,EAAE,CAAC,GACX;;AACD,AAAA,YAAY,CAAC,EACX,MAAM,EAAE,kBAAkB,EAAE,cAAc,CAC1C,eAAe,EAAE,QAAQ,GAC1B;;AACD,AAAA,aAAa,CAAC,EACZ,SAAS,EAAE,KAAK,EAChB,UAAU,EAAE,IAAI,GACjB;;AACD,AAAA,EAAE,EAAE,EAAE,CAAC,EACL,OAAO,EAAE,IAAI,GACd;;AACD,AAAA,CAAC,CAAC,EACA,KAAK,EAAE,KAAK,GACb;;AACD,AAAA,YAAY,CAAC,EACX,UAAU,EAAC,KAAK,EAChB,OAAO,EAAE,qBAAqB,GAC/B;;AACD,AAAA,WAAW,CAAC,EACV,SAAS,EAAE,KAAK,EAChB,UAAU,EAAE,IAAI,GACjB;;AACD,AAAA,iBAAiB,CAAC,EAChB,MAAM,EAAE,WAAW,GACpB;;AACD,AAAA,SAAS,CAAC,EACR,KAAK,EAAE,KAAK,EACZ,OAAO,EAAE,KAAK,EACd,SAAS,EAAE,aAAa,GACzB"
+}
